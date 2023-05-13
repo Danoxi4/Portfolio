@@ -1,0 +1,96 @@
+.style-switcher {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #d4d4e3;
+  border-right: none;
+  border-radius: 0 0 5px 0;
+  color: #ec1839;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: translateX(100%);
+}
+
+.style-switcher.show {
+  transform: translateX(0);
+}
+
+.style-switcher h5 {
+  font-size: 16px;
+  color: #ec1839;
+  margin-top: 0;
+  margin-bottom: 8px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ec1839;
+}
+
+.style-switcher ul {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  margin-bottom: 5px;
+}
+
+.style-switcher ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.style-switcher ul li:last-child {
+  margin-right: 0;
+}
+
+.style-switcher ul li a {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #ec1839;
+  transition: all 0.3s ease;
+}
+
+.style-switcher ul li a:hover {
+  transform: scale(1.2);
+}
+
+.style-switcher .toggle-style-switcher {
+  position: absolute;
+  height: 45px;
+  width: 45px;
+  background: #fff;
+  left: -46px;
+  top: -1px;
+  border: 1px solid #d4d4e3;
+  border-right: none;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+  transition: all 0.3s ease;
+}
+
+
+.style-switcher .toggle-style-switcher i {
+  font-size: 20px;
+  line-height: 45px;
+  color: #ec1839;
+  transition: all 0.3s ease;
+}
+
+.style-switcher.show .toggle-style-switcher i {
+  color: #fff;
+}
+
+/* Light mode */
+
+.light {
+  background-color: #f6f6f6;
+  color:
+
+
+
+
